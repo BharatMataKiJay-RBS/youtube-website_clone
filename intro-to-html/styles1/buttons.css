@@ -1,0 +1,115 @@
+.subscribe-class{
+    background-color:  rgb(200, 0, 0);
+    color:  white;
+    border: none;
+    height: 36px;
+    width: 105px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 6px;
+    
+}
+.subscribe-class:hover{
+   opacity:0.8;
+}
+.subscribe-class:active{
+    opacity: 0.5;
+}
+.join-class{
+    background-color: white;
+    color: rgb(41, 118, 211);
+    border-color:rgb(41, 118, 211) ;
+    border-style: solid;
+    cursor: pointer;
+    transition: background-color 0.15s,color 0.15s;
+    height: 36px;
+    width:75px
+}
+.join-class:hover{
+    
+    background-color:rgb(41, 118, 211) ;
+    color: white;
+}
+.join-class:active{
+    opacity: 0.8;
+}
+.Tweet-class{
+    background-color: rgb(2, 158, 255);
+    color: white;
+    border-style:solid;
+    margin-left: 6px;
+    height: 36px;
+    width: 72px;
+    border-radius: 18px;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    transition:box-shadow 0.15s
+    
+}
+.Tweet-class:hover{
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+}
+.linkedin{
+    background-color: rgb(10, 102, 194);
+    color: white;
+    border: none;
+    width: 200px;
+    height: 36px;
+    border-radius: 18px;
+    font-weight: bold;
+}
+.save-class{
+    color: rgb(10, 102, 194) ;
+    border-color: rgb(10, 102, 194);
+    background-color: white;
+    border-style: solid;
+    height: 36px;
+    width: 70px;
+    font-weight: bold;
+    border-radius: 18px;
+}
+.Bootstrap{
+    color: white;
+    background-color: rgb(121, 82, 179);
+    height: 36px;
+    width: 100px;
+    font-weight: bold;
+    border-color: rgb(121, 82, 179);
+    border-style: solid;
+    margin-right: 6px;
+    border-radius: 4px;
+    
+}
+.Dnld-class{
+    border-color:rgb(108, 117, 125);
+    color: rgb(108, 117, 125);
+    background: none;
+    border-color: rgb(108, 117, 125);
+    border-style: solid;
+    height: 36px;
+    width:100px;
+    border-radius: 4px;
+}
+.shadow-button{
+    background-color: green;
+    color: white;
+    border-style: solid;
+    border: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 16px;
+    padding-left: 16px;
+    font-size: 10px;
+    margin-left: 15px;
+    margin-top: 3px;
+    font-size: 18px;
+    box-shadow:3px 3px 5px rgba(0,0,0,0.3);
+}
+.shadow-button:active{
+    margin-top: 3px;
+    margin-left: 3px;
+    box-shadow: none;
+
+}
